@@ -1,0 +1,41 @@
+.main {
+    width: 100%;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding-top: 30px;
+}
+
+.card p, h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.button {
+    margin: 20px auto;
+    display: block;
+}
+
+.list {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.newCard {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto 20px auto;
+}
+
+.newCard input {
+    margin-bottom: 10px;
+    height: 30px;
+}
